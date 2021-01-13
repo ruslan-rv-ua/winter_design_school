@@ -18,7 +18,7 @@
     
     
       
-        <title>Невізуальний доступ - Невізуальний доступ — Зимова школа з дизайну</title>
+        <title>Як працює скрінрідер - Невізуальний доступ — Зимова школа з дизайну</title>
       
     
     
@@ -104,7 +104,7 @@
         <div class="md-header-nav__topic">
           <span class="md-ellipsis">
             
-              Невізуальний доступ
+              Як працює скрінрідер
             
           </span>
         </div>
@@ -124,6 +124,8 @@
         <div class="md-main__inner md-grid">
           
             
+              
+                
               
               <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
                 <div class="md-sidebar__scrollwrap">
@@ -231,11 +233,69 @@
       
 
 
+  
 
-  <li class="md-nav__item">
-    <a href="screenreader_how_to.html" class="md-nav__link">
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Як працює скрінрідер
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="screenreader_how_to.html" class="md-nav__link md-nav__link--active">
       Як працює скрінрідер
     </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#nvda" class="md-nav__link">
+    NVDA
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nvda-web" class="md-nav__link">
+    NVDA + web
+  </a>
+  
+    <nav class="md-nav" aria-label="NVDA + web">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Швидка навігація
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
   </li>
 
     
@@ -286,7 +346,9 @@
             
             
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -303,9 +365,29 @@
     <ul class="md-nav__list" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ruslanrvuawinter_design_school" class="md-nav__link">
-    ruslan.rv.ua/winter_design_school/
+  <a href="#nvda" class="md-nav__link">
+    NVDA
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nvda-web" class="md-nav__link">
+    NVDA + web
+  </a>
+  
+    <nav class="md-nav" aria-label="NVDA + web">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_2" class="md-nav__link">
+    Швидка навігація
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -322,10 +404,51 @@
               
                 
                 
-                <h1 id="_1">Невізуальний доступ</h1>
-<h2 id="ruslanrvuawinter_design_school"><a href="http://ruslan.rv.ua/winter_design_school/">ruslan.rv.ua/winter_design_school/</a></h2>
-<p><img alt="QR код з посиланням на цю презентацію" src="qr_link.png" /></p>
-<p><a href="about_me.html">[Почати]</a></p>
+                <h1 id="_1">Як працювати за допомогою скрінрідера</h1>
+<ul>
+<li>в один момент часу можна "читати" лише певну кількість інформації</li>
+<li>говорять, що інтерфейсний елемент, який скрінрідер "озвучує" в певний момент часу, знаходиться в фокусі</li>
+<li>переміщуючи фокус ми "читаємо" різні елементи — текст, кнопки, пункти меню, піктограми на десктопі, посилання, ...</li>
+</ul>
+<h2 id="nvda">NVDA</h2>
+<p>Усе "традиційно" — звичайні маніпуляції за допомогою клавіатури.</p>
+<ul>
+<li><code>ctrl</code> — припинити мову негайно</li>
+<li><code>shift</code> — призупинити/відновити мову</li>
+</ul>
+<p>Також скрінрідер додає спеціальну клавішу-модифікатор, подібно <code>shift</code> чи <code>alt</code>. 
+Для NVDA це <code>caps lock</code> або <code>insert</code>. </p>
+<ul>
+<li><code>nvda + down</code> — читати від поточної позиції з переміщенням фокусу</li>
+<li><code>nvda + F12</code> — оголошує поточний час/дату</li>
+<li><code>nvda + c</code> — оголошує вміст буфера обміну</li>
+<li><code>nvda + t</code> — оголошує заголовок поточного вікна</li>
+<li><code>nvda + b</code> — оголошує усі елементи вікна</li>
+<li><code>nvda + r</code> — розпізнавання текста на зображенні (OCR)</li>
+<li><code>nvda + f</code> — оголошує форматування текста (шрифт, колір, ...)</li>
+<li><code>nvda + 1</code> — вмикає/вимикає режим вивчення клавіатурних скорочень</li>
+</ul>
+<p>Сторонні додатки додають додаткові :) комбінації клавіш.</p>
+<h2 id="nvda-web">NVDA + web</h2>
+<p>Два режими роботи з документом:</p>
+<p><code>NVDA+space</code> — Перемикає між режимом огляду і режимом редагування</p>
+<ul>
+<li>режим редагування — клавіші передаються безпосередньо програмі, дозволяючи взаємодіяти з активним елементом керування.</li>
+<li>режим огляду — можна переглядати вміст документа, використовуючи курсор, швидкі клавіші NVDA і т.д.</li>
+</ul>
+<h4 id="_2">Швидка навігація</h4>
+<ul>
+<li><code>h</code> — перемістити фокус до наступного заголовка</li>
+<li><code>1..6</code> — перемістити фокус до наступного заголовка певного рівня</li>
+<li><code>k</code> — перемістити фокус до наступного посилання</li>
+<li><code>u</code> — перемістити фокус до наступного невідвіданого посилання</li>
+<li><code>f</code> — перемістити фокус до наступного поля форми</li>
+<li><code>e</code> — перемістити фокус до наступного редактора</li>
+<li><code>x</code> — перемістити фокус до наступного чекбокса</li>
+<li><code>b</code> — перемістити фокус до наступної кнопки</li>
+<li>...</li>
+<li><code>nvda + F7</code> — діалог з вибором елементів</li>
+</ul>
                 
                   
                 
@@ -342,6 +465,41 @@
       
         
 <footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="other_platforms.html" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Інші платформи
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="try_it.html" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Спробуй!
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
