@@ -1,22 +1,13 @@
 ---
 hide:
 #  - navigation # Hide navigation
-  - toc        # Hide table of contents
+#  - toc        # Hide table of contents
+# https://apps.ucu.edu.ua/design-school-2021/?fbclid=IwAR0qNSbfSszUu94tNZUZhIXYiHROlDD-S0g7FUrFwrzgfita0iv4GS2BOGU
 ---
-# Welcome to MkDocs
+# Невізуальний доступ
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
+## [ruslan.rv.ua/winter_design_school/](http://ruslan.rv.ua/winter_design_school/)
 
-## Commands
+![QR код з посиланням на цю презентацію](qr_link.png)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+[[Почати]](about_me.md)

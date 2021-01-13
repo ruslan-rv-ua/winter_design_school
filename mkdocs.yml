@@ -1,6 +1,6 @@
 # Project information
-site_name: 'Your site name'
-site_description: 'Your site description'
+site_name: 'Невізуальний доступ — Зимова школа з дизайну'
+site_description: 'Зимова школа з дизайну'
 site_author: 'Ruslan Iskov'
 
 use_directory_urls: false
@@ -17,8 +17,8 @@ docs_dir: '.\source'
 # Repository
 ### repo_name: 'squidfunk/mkdocs-material'
 ### repo_url: 'https://github.com/squidfunk/mkdocs-material'
-# repo_name: 'ruslan.rv.ua'
-# repo_url: 'http://ruslan-rv-ua.github.io/'
+#repo_name: 'winter design school'
+#repo_url: 'http://ruslan.rv.ua/winter_design_school/'
 # remote_branch: master
 
 
@@ -99,7 +99,13 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-  - Some folder:
-    - "some File": "some_folder/some.md"
-  - Another:
-    - Another file: "another_folder/another_file.md"
+  - Автор: "about_me.md"
+  - Але як?: but_how.md
+  - Читачі екрану: screenreader.md
+  - Windows: windows.md
+  - Мобільні платформи: mobile.md
+  - Інші платформи: other_platforms.md
+  - Як працює скрінрідер: screenreader_how_to.md
+  - Спробуй!: try_it.md
+  - Графічний дизайн: graph_design.md
+  - ЧаПи: faq.md
